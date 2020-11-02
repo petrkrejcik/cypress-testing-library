@@ -1,7 +1,7 @@
 {
-  "name": "@testing-library/cypress",
+  "name": "@testing-library/cypress-petrkrejcik",
   "version": "0.0.0-semantically-released",
-  "description": "Simple and complete custom Cypress commands and utilities that encourage good testing practices.",
+  "description": "(Fork from @testing-library/cypress) Simple and complete custom Cypress commands and utilities that encourage good testing practices.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "engines": {
@@ -37,7 +37,7 @@
     "end-to-end",
     "e2e"
   ],
-  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com)",
+  "author": "Petr Krejcik",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
@@ -68,10 +68,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/cypress-testing-library"
+    "url": "https://github.com/petrkrejcik/cypress-testing-library"
   },
   "bugs": {
-    "url": "https://github.com/kentcdodds/cypress-testing-library/issues"
+    "url": "https://github.com/petrkrejcik/cypress-testing-library/issues"
   },
-  "homepage": "https://github.com/kentcdodds/cypress-testing-library#readme"
+  "homepage": "https://github.com/petrkrejcik/cypress-testing-library#readme"
 }
