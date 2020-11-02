@@ -68,6 +68,9 @@ function createCommand(queryName, implementationName) {
         // Overriding the selector of the jquery object because it's displayed in the long message of .should('exist') failure message
         // Hopefully it makes it clearer, because I find the normal response of "Expected to find element '', but never found it" confusing
         result.selector = getSelector()
+        result.reactTestingLibrary = {
+          command: () => commandImpl(container),
+        }
 
         consoleProps.elements = result.length
         if (result.length === 1) {
