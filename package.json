@@ -1,6 +1,6 @@
 {
   "name": "testing-library-cypress-with-exported-command",
-  "version": "0.0.0-semantically-released",
+  "version": "0.1.0",
   "description": "(Fork from @testing-library/cypress) Simple and complete custom Cypress commands and utilities that encourage good testing practices.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
